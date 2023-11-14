@@ -1,0 +1,96 @@
+# Available color codes:
+# &0 Black        &6 Gold       &c Red
+# &1 Dark Blue    &7 Gray       &d Light Purple
+# &2 Dark Green   &8 Dark Gray  &e Yellow
+# &3 Dark Aqua    &9 Blue       &f White
+# &4 Dark Red     &a Green     
+# &5 Dark Purple  &b Aqua
+
+# Available formatting codes:
+# &k Obfuscated   &m Strikethrough
+# &l Bold         &o Italic
+# &n Underline    &r Reset
+# \n
+
+0 - 保护 IV protection 盔衣裤鞋 10 | 爆炸保护 火焰保护 弹射物保护
+1 - 火焰保护 IV fire_protection 盔衣裤鞋 5 | 爆炸保护 弹射物保护 保护
+2 - 摔落保护 IV feather_falling 盔衣裤鞋 5
+3 - 爆炸保护 IV blast_protection 盔衣裤鞋 2 | 火焰保护 弹射物保护 保护
+4 - 弹射物保护 IV projectile_protection 盔衣裤鞋 5 | 爆炸保护 火焰保护 保护
+5 - 荆棘 III thorns 衣 盔裤鞋 1
+6 - 水下呼吸 III respiration 盔 2
+7 - 深海探索者 III depth_strider 鞋 2 | 冰霜行者
+8 - 水下速掘 I aqua_affinity 盔 2
+9 - 锋利 V sharpness 剑 斧 10 | 节肢杀手 亡灵杀手 Cleaving
+10 - 亡灵杀手 V smite 剑 斧 5 | 节肢杀手 锋利 Cleaving
+11 - 节肢杀手 V bane_of_arthropods 剑 斧 5
+12 - 击退 II knockback 剑 5
+13 - 火焰附加 II fire_aspect 剑 2
+14 - 抢夺 III looting 剑 2
+15 - 效率 V efficiency 斧镐锹锄 剪 10
+16 - 精准采集 I silk_touch 斧镐锹锄 1 | 时运
+17 - 耐久 III unbreaking 甲工功 剪火饵盾鞘 5
+18 - 时运 III fortune 斧镐锹锄 2 | 精准采集
+19 - 力量 V power 弓 10
+20 - 冲击 II punch 弓 2
+21 - 火矢 I flame 弓 2
+22 - 无限 I infinity 弓 1 | 经验修补
+23 - 海之眷顾 III luck_of_the_sea 钓 2 | 经验修补
+24 - 饵钓 III lure 钓 2 | 经验修补
+25 - 冰霜行者 II frost_walker X 鞋 1 | 深海探索者
+26 - 经验修补 I mending X 所有 2 | 无限
+27 - 绑定诅咒 I binding_curse X 甲 1
+28 - 消失诅咒 I vanishing_curse 甲工功 1
+29 - 穿刺 V impaling 戟 2
+30 - 激流 III riptide 戟 2 | 引雷 忠诚
+31 - 忠诚 III loyalty 戟 5 | 激流
+32 - 引雷 I channeling 戟 1 | 激流
+33 - 多重射击 I multishot 弩 3 | 穿透
+34 - 穿透 IV piercing 弩 10 | 多重射击
+35 - 快速装填 III quick_charge 弩 5
+36 - 灵魂疾行 III soul_speed X 鞋 1
+O  - 横扫之刃 III sweeping 剑 2
+X  - Cleaving III cleaving 斧
+X  - 经验修补 冰霜行者 绑定诅咒 消失诅咒 灵魂疾行 32767 2147483647
+
+01 - 速度 speed 2
+02 - 缓慢 slowness 4
+03 - 急迫 haste 2
+04 - 挖掘疲劳 mining_fatigue 3
+05 - 力量 strength 2
+06 - 瞬间治疗 instant_health 2
+07 - 瞬间伤害 instant_damage 2
+08 - 跳跃提升 jump_boost 2
+09 - 反胃 Nausea 2
+10 - 生命恢复 regeneration 5
+11 - 抗性提升 resistance 4
+12 - 防火 fire_resistance 2
+13 - 水下呼吸 water_breathing 1
+14 - 隐身 invisibility 1
+15 - 失明 blindness 1
+16 - 夜视 night_vision 1
+17 - 饥饿 hunger 3
+18 - 虚弱 weakness 1
+19 - 中毒 poison 4
+20 - 凋零 wither 2
+21 - 生命提升 health_boost 2
+22 - 伤害吸收 absorption 4
+23 - 饱和 saturation 1
+24 - 发光 glowing 1
+25 - 漂浮 levitation 2
+26 - 幸运 luck 1
+27 - 霉运 unluck 1
+28 - 缓降 slow_falling 1
+29 - 潮涌能量 conduit_power 1
+30 - 海豚的恩惠 dolphins_grace 2
+31 - 不祥之兆 bad_omen 5
+32 - 村庄英雄 hero_of_the_village 5
+
+FHDOh1GGxDTs5X36
+224.0.2.60:4445
+peterburke96@hotmail.co.uk
+Pagani12!
+
+/give PLTAT splash_potion{CustomPotionEffects:[{Id:6,Amplifier:125,Duration:0}],Unbreakable:1} 1
+
+/summon villager ~ ~1 ~ {Health:1,NoAI:1,Glowing:1,Invulnerable:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:9999999,buy:{id:dirt,Count:1},sell:{id:apple,Count:1,tag:{Enchantments:[{id:unbreaking,lvl:0},]}}},{maxUses:9999999,buy:{id:dirt,Count:1},sell:{id:apple,Count:1,tag:{Enchantments:[{id:unbreaking,lvl:0},]}}},]}}
