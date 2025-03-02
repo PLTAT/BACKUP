@@ -88,9 +88,11 @@ X  - 经验修补 冰霜行者 绑定诅咒 消失诅咒 灵魂疾行 32767 2147
 
 FHDOh1GGxDTs5X36
 224.0.2.60:4445
-peterburke96@hotmail.co.uk
-Pagani12!
 
 /give PLTAT splash_potion{CustomPotionEffects:[{Id:6,Amplifier:125,Duration:0}],Unbreakable:1} 1
 
 /summon villager ~ ~1 ~ {Health:1,NoAI:1,Glowing:1,Invulnerable:1,PersistenceRequired:1,Offers:{Recipes:[{maxUses:9999999,buy:{id:dirt,Count:1},sell:{id:apple,Count:1,tag:{Enchantments:[{id:unbreaking,lvl:0},]}}},{maxUses:9999999,buy:{id:dirt,Count:1},sell:{id:apple,Count:1,tag:{Enchantments:[{id:unbreaking,lvl:0},]}}},]}}
+
+/setblock ~ ~ ~1 cherry_sign{front_text:{messages:['{"clickEvent":{"action":"run_command","value":"/msg @s 你怎么回事"},"text":"你不应该在这里"}','{"clickEvent":{"action":"run_command","value":"/msg @s 又偷偷玩命令"},"text":"通常是某个模组失效了"}','{"clickEvent":{"action":"run_command","value":"/msg @s 看吧 都跟你说了模组有问题"},"text":"你是时候离开这里了"}','{"clickEvent":{"action":"run_command","value":"/back"},"text":"再见"}']}} destroy
+
+/summon villager ~ ~1 ~ {NoAI:1,Invulnerable:1,PersistenceRequired:1,Silent:1,Health:1,Glowing:1,CustomNameVisible:1,CustomName:"民",Offers:{Recipes:[{maxUses:9999999,buy:{id:dirt,Count:1},buyB:{id:dirt,Count:1},sell:{id:apple,Count:1,}}]},VillagerData:{profession:"librarian",type:"plains"},Brain:{memories:{"meeting_point":{pos:[I;0,0,0],dimension:"overworld"},"home":{pos:[I;1,1,1],dimension:"overworld"},"job_site":{pos:[I;2,2,2],dimension:"overworld"}}}}
